@@ -35,6 +35,9 @@ window.title("Text Editor in Tkinter")
 
 window.rowconfigure(0, minsize=900, weight=1)
 window.columnconfigure(1, minsize=900, weight=1)
+# add photo
+p1 = tk.PhotoImage(file = "teamwork.png")
+window.iconphoto(False, p1)
 
 txt_edit = tk.Text(window)
 fr_buttons = tk.Frame(window)
